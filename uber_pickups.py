@@ -16,7 +16,7 @@ def load_data(nrows):
 data_load_state=st.text('Loading data...')
 data=load_data(1000)
 st.write(data)
-data_load_state.text('Loading data...done!')
+
 
 st.subheader("Data Overview")
 TIME='TIME'
