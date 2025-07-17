@@ -17,6 +17,7 @@ data_load_state=st.text('Loading data...')
 data=load_data(1000)
 st.write(data)
 data_load_state.text('Loading data...done!')
+
 st.subheader("Data Overview")
 TIME='TIME'
 hist_values=np.histogram(data[TIME].dt.hour,bins=24, range=(0,24))[0]
